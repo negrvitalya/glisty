@@ -1,0 +1,55 @@
+body{
+    min-width:360px;
+    background-color:rgb(159,176,138);
+}
+
+#navbar{
+    border:2px black groove;
+    background-color:#438B00;
+    text-align:center;
+    height:100px;
+}
+/*div с изменнием цветов*/
+#rb{
+    float:left;
+}
+
+#pss{
+    color:#2F6100;
+}
+/*надпись*/
+#h{
+    transition:all 3s;
+    transform:rotate(0deg)
+}
+#h:hover{
+    transform:scaleX(5.228);
+    transition:all 1.5s;
+}
+/*вот это всё*/
+
+
+/*ссылки слева*/
+#links{
+    position:absolute;
+    left:1px;
+    border-top:4px #438B00 inset;
+    border-bottom:4px #438B00 outset;
+    border-right:4px #438B00 inset;
+    width:50vw;
+    height:81vh;
+}
+/*#dungeon{
+    position:absolute;
+    bottom:1px;
+    height:80px;
+    width:99.4vw;
+    background-color: #748064;
+    text-align:center;
+    transition:all 10s;
+}
+#dungeon:hover{
+    bottom:228px;
+    transition:all 2s;
+    
+}*/
