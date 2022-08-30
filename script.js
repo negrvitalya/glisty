@@ -1,7 +1,7 @@
-let red=159
-let green=176
-let blue=138
-const content='<label>красный</label><input width="250px" type="range" oninput="fuck(\'r\')" min="0" max="255" step="1" id="red" value="159"><label id="rl">159</label><br/><label>зелёный</label><input type="range" oninput="fuck(\'g\')" width="250px" min="0" max="255" step="1" id="green" value="174"><label id="gl">176</label><br/><label>синий  </label><input type="range" width="250px" oninput="fuck(\'b\')" min="0" max="255" step="1" id="blue" value="138"><label id="bl">138</label>'
+let red=255
+let green=255
+let blue=255
+const content='<label>красный</label><input width="250px" type="range" oninput="fuck(\'r\')" min="0" max="255" step="1" id="red" value="255"><label id="rl">159</label><br/><label>зелёный</label><input type="range" oninput="fuck(\'g\')" width="250px" min="0" max="255" step="1" id="green" value="255"><label id="gl">176</label><br/><label>синий  </label><input type="range" width="250px" oninput="fuck(\'b\')" min="0" max="255" step="1" id="blue" value="255"><label id="bl">138</label>'
 function fuck(tp){
     //console.log(jQuery('input').val());
     if(tp=='r'){
